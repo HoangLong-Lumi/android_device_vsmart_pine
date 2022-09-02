@@ -6,6 +6,10 @@
 
 $(call inherit-product-if-exists, vendor/vsmart/casuarina/casuarina-vendor.mk)
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
