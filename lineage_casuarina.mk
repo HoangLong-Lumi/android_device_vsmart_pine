@@ -19,7 +19,7 @@ PRODUCT_NAME := lineage_casuarina
 PRODUCT_BRAND := vsmart
 PRODUCT_DEVICE := casuarina
 PRODUCT_MANUFACTURER := vsmart
-PRODUCT_MODEL := Vsmart Live
+PRODUCT_MODEL := Joy 3
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE=casuarina \
