@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_casuarina.mk
+    $(LOCAL_DIR)/dot_casuarina.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_casuarina-eng \
-    lineage_casuarina-user \
-    lineage_casuarina-userdebug
+    dot_casuarina-eng \
+    dot_casuarina-user \
+    dot_casuarina-userdebug

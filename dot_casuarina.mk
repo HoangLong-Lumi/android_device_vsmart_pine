@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/vsmart/casuarina/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
-PRODUCT_NAME := lineage_casuarina
+PRODUCT_NAME := dot_casuarina
 PRODUCT_BRAND := vsmart
 PRODUCT_DEVICE := casuarina
 PRODUCT_MANUFACTURER := vsmart
